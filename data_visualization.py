@@ -7,7 +7,6 @@ import numpy as np
 from matplotlib import rcParams
 
 # 日本語フォント設定
-rcParams['font.family'] = 'DejaVu Sans'
 
 def create_pie_chart(df, save_path='pie_chart.png'):
     """所属ごとの参加者数を円グラフで表示"""
